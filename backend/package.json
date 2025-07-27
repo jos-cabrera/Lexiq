@@ -1,0 +1,33 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "Backend for Lexiq - A random quote and word generator",
+	"homepage": "https://github.com/jos-cabrera/Lexiq#readme",
+	"bugs": {
+		"url": "https://github.com/jos-cabrera/Lexiq/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/jos-cabrera/Lexiq.git"
+	},
+	"license": "MIT",
+	"author": "jos-cab",
+	"type": "commonjs",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "node dist/index.js",
+		"build": "tsc",
+		"dev": "nodemon",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.3",
+		"@types/node": "^24.1.0",
+		"nodemon": "^3.1.10",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	}
+}
