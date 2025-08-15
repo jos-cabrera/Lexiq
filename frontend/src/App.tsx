@@ -1,6 +1,4 @@
 import { useStore } from './store/useStore';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 
 function App() {
 	const { count, data, loading, increment, decrement, fetchData } =
@@ -11,18 +9,7 @@ function App() {
 			<div className='max-w-4xl mx-auto px-4'>
 				{/* Header */}
 				<div className='text-center mb-8'>
-					<div className='flex justify-center items-center gap-4 mb-4'>
-						<img
-							src={viteLogo}
-							className='h-16 w-16'
-							alt='Vite logo'
-						/>
-						<img
-							src={reactLogo}
-							className='h-16 w-16 animate-spin'
-							alt='React logo'
-						/>
-					</div>
+					<div className='flex justify-center items-center gap-4 mb-4'></div>
 					<h1 className='text-4xl font-bold text-gray-800 mb-2'>
 						Vite + React + TypeScript
 					</h1>
